@@ -1,0 +1,12 @@
+api-version: 1.20
+
+name: ${project.name}
+version: ${project.version}
+description: '<empty>'
+
+main: dev.imprex.protocol.ThroughputTest
+
+depend: [ProtocolLib]
+
+commands:
+  throughput:
